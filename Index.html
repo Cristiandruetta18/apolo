@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="wiewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible"content="IE-edge">
       
     <link rel="icon" sizes="64x64" href="IMAGES/FaviconApolo.png">
@@ -26,7 +26,7 @@
         <div class="institucional">
           <div class="row align-items-center">
             <div class="col">
-              <a class="nav-link" href="./Paginas/historia.html">Historia</a>
+              <a class="nav-link" href="./Paginas/historia.html" target="_blank">Historia</a>
             </div>
             <div class="col">
               <a class="nav-link" href="#contacto">Contacto</a>
@@ -39,16 +39,17 @@
 
         <div class="buscador">
           <div class="row align-items-center">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <a class="navbar-brand" href="#">
                 <img src="./IMAGES/LogoApolo.png" alt="Logo Apolo Muebles" width="70px" height="70px" class="d-inline-block align-text-top">
                   APOLO MUEBLES
               </a>
             </div>
-            <div class="col-6">
+            <div class="col-12  col-md-6">
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-danger" type="submit">Buscador</button>
+                <button class="btn btn-outline-light" type="submit">Buscador</button>
+                <a class="nav-link" href="./Paginas/Carrito.html" target="_blank"><img src="./IMAGES/carrito.png" alt="Carrito" width="35px" height="35px" class="d-inline-block align-text-top"/></a>
               </form>
             </div>
           </div> 
@@ -109,7 +110,6 @@
     <section>
       <div class="masvendidos">
         <h1>Productos mas vendidos</h1>
-
         <div class="row">
           <div class="col">
             <div class="card" style="width: 24rem;">
@@ -121,7 +121,7 @@
                   <br>Altura total: 150cm
                   <br>Base: 50cm x 40cm
                   <br>Precio: $5.000</p>
-                <a href="#" class="btn btn-danger">Comprar</a>
+                <a href="#" class="btn btn-danger">Agregar</a>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@
                   <br>Ancho: 60cm
                   <br>Profundidad: 20cm
                   <br>Precio: $5.000</p>
-                <a href="#" class="btn btn-danger">Comprar</a>
+                <a href="#" class="btn btn-danger">Agregar</a>
               </div>
             </div>
           </div>
@@ -149,7 +149,7 @@
                   <br>Ancho: 60cm
                   <br>Profundidad: 20cm
                   <br>Precio: $3.000</p>
-                <a href="#" class="btn btn-danger">Comprar</a>
+                <a href="#" class="btn btn-danger">Agregar</a>
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@
                   <br>Altura total: 40cm
                   <br>Base: 30cm x 30cm
                   <br>Precio: $3.000</p>
-                <a href="#" class="btn btn-danger">Comprar</a>
+                <a href="#" class="btn btn-danger">Agregar</a>
               </div>
             </div>
           </div>
@@ -177,7 +177,7 @@
                   <br>Ancho: 40cm
                   <br>Profundidad: 30cm
                   <br>Precio: $3.000</p>
-                <a href="#" class="btn btn-danger">Comprar</a>
+                <a href="#" class="btn btn-danger">Agregar</a>
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@
                   <br>Ancho: 50cm
                   <br>Profundidad: 30cm
                   <br>Precio: $5.000</p>
-                <a href="#" class="btn btn-danger">Comprar</a>
+                <a href="#" class="btn btn-danger">Agregar</a>
               </div>
             </div>
           </div>
@@ -213,22 +213,22 @@
         <div class="row mb-3">
           <div class="col-6">
             <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
           </div>
           <div class="col-6">
             <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
           </div>
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="button" class="btn btn-outline-danger">Enviar</button>
+        <button type="button" class="btn btn-outline-dark">Enviar</button>
         
       </div>
     </section>

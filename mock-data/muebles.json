@@ -1,0 +1,9 @@
+{
+    "muebles": [{
+        "nombre": "organizador de muebles",
+        "description": "algo...",
+        "url": "mueble1.png"
+
+    }
+    ]
+}

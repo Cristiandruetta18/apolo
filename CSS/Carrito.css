@@ -1,0 +1,12 @@
+p {
+    color:black;
+}
+
+h4{
+    font-size: 15px;
+    color: black;
+}
+
+.productos .row{
+    border-bottom: 1px solid black;
+}

@@ -13,8 +13,8 @@ div.institucional{
 
 .buscador{
     background-color: black;
-    height: 80px;
-    padding: 0 10%;
+    min-height: 80px;
+    padding: 12px 10%;
 }
 
 a.navbar-brand{
@@ -75,6 +75,10 @@ div.masvendidos{
 }
 
  h1{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
     padding-bottom:  16px;
     margin: 0 40px 20px !important;
     border-bottom: 2px solid black;
@@ -151,14 +155,6 @@ footer{
 footer > .row {
     padding: 0 10%;
 }
-
-h1 {
-    font-size: 15px;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-}
-
 
 h2 {
     font-size: 12px;
