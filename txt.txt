@@ -1,0 +1,66 @@
+{
+"muebles":[{
+"nombre": "Lámpara de pie 2 patas",
+"descripcion": "Lámpara estilo nórdico, 2 patas con base cuadrada.",
+"altura": 150,
+"ancho": 50,
+"profundidad": 40,
+"pantalla": "30x30",
+"unidad": "cm",
+"url": "mueble1.png",
+"precio": "5000"}]
+
+[{
+"nombre": "Perchero 2 modulos",
+"descripcion": "Perchero estilo nordico con 10 apliques.",
+"altura": 180,
+"ancho": 60,
+"profundidad": 20,
+"unidad": "cm",
+"url": "mueble2.png",
+"precio": "5000"}]
+
+[{
+"nombre": "Estante baño",
+"descripcion": "Estantes organizadores ideal para baños, toalleros.",
+"altura": 120,
+"ancho": 60,
+"profundidad": 20,
+"unidad": "cm",
+"url": "mueble1.png",
+"precio": "6.000"}]
+
+[{
+"nombre": "Organizador para baño",
+"descripcion": "Organizador de 3 estantes con porta rollo pape higienico.",
+"altura": 100,
+"ancho": 40,
+"profundidad": 30,
+"unidad": "cm",
+"url": "mueble1.png",
+"precio": "3000"}]
+
+[{
+"nombre": "Velador 2 patas",
+"descripcion": "Velador para mesita de luz estilo nordico de dos patas con base cruz.",
+"altura": 40,
+"ancho": 30,
+"profundidad": 30,
+"pantalla": "30x30",
+"unidad": "cm",
+"url": "mueble1.png",
+"precio": "3000"}]
+
+[{
+"nombre": "Organizador 3 estantes",
+"descripcion": "Organizador de 3 estantes ideal para macetas, frutero.",
+"altura": 140,
+"ancho": 50,
+"profundidad": 30,
+"unidad": "cm",
+"url": "mueble1.png",
+"precio": "5000"}]
+}
+
+footer
+Es una empresa familiar dedicada a la fabricacion y comercialización de muebles para el hogar. Junto a otras marcas como dawa home y stemate, ofrecemos una aplia variedad de pruducto siendo nuestro principal objetivo “ofrecer un amplio surtido de productos para el hogar, funcionales y de buen diseño, a precios que resulten accesibles para la mayoría de las personas”.

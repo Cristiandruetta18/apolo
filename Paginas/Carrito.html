@@ -1,0 +1,256 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"content="IE-edge">
+      
+    <link rel="icon" sizes="64x64" href="IMAGES/FaviconApolo.png">
+      
+    <link rel="stylesheet" href="../CSS/Carrito.css"> 
+    <link rel="stylesheet" href="../CSS/Estilos.css"> 
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>APOLO MUEBLES</title>
+    
+  </head>
+  
+  <body>
+    <header>
+
+      <div class="institucional">
+        <div class="row align-items-center">
+          <div class="col">
+            <a class="nav-link" href="../Paginas/Historia.html" target="_blank">Historia</a>
+          </div>
+          <div class="col">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </div>
+          <div class="col">
+            <a class="nav-link" href="#ubicacion">Ubicacion</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="buscador">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <a class="navbar-brand" href="./Index.html">
+              <img src="../IMAGES/Logo Apolo Negro.png" alt="Logo Apolo Muebles" width="70px" height="70px" class="d-inline-block align-text-top">
+                APOLO MUEBLES
+            </a>
+          </div>
+          <div class="col-12  col-md-6">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Buscador</button>
+              <a class="nav-link" href="./Paginas/Carrito.html" target="_blank"><img src="../IMAGES/carito.png" alt="Carrito" width="35px" height="35px" class="d-inline-block align-text-top"/></a>
+            </form>
+          </div>
+        </div> 
+      </div>
+
+      <div class="lineas">
+        <ul class="nav  nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linea Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linea Living</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linea Dormitorio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linea Baño</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linea Comedor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Otros</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section>
+      <h1>Carrito de compras</h1>
+    </section>
+
+    <section class="container pt-section">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+
+              <div class="productos">
+                <div class="row align-items-center">
+                  <div class="col-2"><img src="../IMAGES/Velador1.png" alt="Lampara de pie 2 patas" width="70px" height="70px"></div>
+                  <div class="col-5"><h5>Lampara de pie 2 patas</h5></div>
+                  <div class="col-3">
+                    <select class="form-select" aria-label="Cantidad" id="cantidadMueble1">
+                        <option value="0" selected>Cantidad</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                  </div>
+                  <div class="col-2"><h5>$5000</h5></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-2"><img src="../IMAGES/Velador2.png" alt="Lampara de pie 2 patas" width="70px" height="70px"></div>
+                  <div class="col-5"><h5>Velador 2 patas</h5></div>
+                  <div class="col-3">
+                    <select class="form-select" aria-label="Cantidad" id="cantidadMueble2">
+                        <option value="0" selected>Cantidad</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                  </div>
+                  <div class="col-2"><h5>$3000</h5></div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-2"><img src="../IMAGES/Baño1.png" alt="Lampara de pie 2 patas" width="70px" height="70px"></div>
+                  <div class="col-5"><h5>Organizador para baño</h5></div>
+                  <div class="col-3">
+                    <select class="form-select" aria-label="Cantidad" id="cantidadMueble3">
+                        <option value="0" selected>Cantidad</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                  </div>
+                  <div class="col-2"><h5>$3000</h5></div>
+                </div>
+              </div>
+                
+                <form action="">
+                  <div class="alert alert-primary mt-2 mb-4" role="alert">
+                    Total a pagar: $ <span id="totalPago" class="align-middle"></span>
+                  </div>
+
+                  <div class="row gx-2">
+                        <div class="col-md mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre" required>
+                        </div>
+                        <div class="col-md mb-3">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido" required>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="col mb-3">
+                            <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="mail" required>
+                        </div>
+                  </div>
+                  <div class="row gx-2">
+                    <div class="col-md mb-3">
+                        <input type="text" class="form-control" placeholder="Direccion" aria-label="Direccion" id="direccion" required>
+                    </div>
+                    <div class="col-md mb-3">
+                        <input type="text" class="form-control" placeholder="Localidad" aria-label="Localidad" id="localidad" required>
+                    </div>
+                  </div>
+                  <div class="row gx-2">
+                    <div class="col-md mb-3">
+                        <input type="text" class="form-control" placeholder="Provincia" aria-label="Provincia" id="provincia" required>
+                    </div>
+                    <div class="col-md mb-3">
+                        <input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" size="10" maxlength="10" placeholder="Telefono" aria-label="Telefono" id="telefono" required>
+                    </div>
+                  </div>
+
+                  </div>
+                  <div class="col-lg-9 d-flex">
+                    <div class="col-md mb-3">
+                        <button type="reset" class="w-50 btn btn-lg btn-form btn-outline-dark" id="btnBorrar">Borrar</button>
+                    </div>
+                    <div class="col-md mb-3">
+                        <button type="button" class="w-50 btn btn-lg btn-form btn-outline-dark" id="btnResumen">Resumen</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="../JS/Carrito.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <footer>
+        <div class="row">
+          <div class="col-4">
+            <h3>Líneas</h3>
+            <ul>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-comedor/">Línea Cocina</a>
+              </li>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-dormitorio/">Línea Living</a>
+              </li>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-hogar/">Línea Dormitorio</a>
+              </li>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-living/">Línea Baño</a>
+              </li>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-oficina/">Línea Comedor</a>
+              </li>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-oficina/">Otros</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h3>Contacto</h3>			
+            <ul>
+              <li>
+                <strong>Teléfono</strong><br>0810 220 0020
+              </li>
+              <li>
+                <strong>Whatsapp</strong><br><a class="link" href="https://wa.me/5491150557091">1150557091</a></li>
+              <li>
+                <strong>Email<br></strong><a class="link" href="mailto:apolomuebles@gmail.com">apolomuebles@gmail.com</a>
+              </li>
+              <li>
+                <strong>Horarios</strong><br>Lunes a Viernes de 10 a 20 hs.<br>Sábados de 9 a 20 hs.
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h3>Consultas</h3>
+            <ul>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-comedor/">Envios</a>
+              </li>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-dormitorio/">Medios de pago</a>
+              </li>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-hogar/">Atencios al cliente</a>
+              </li>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-living/">Politicas de devolucion</a>
+              </li>
+              <li>
+                <a class="link" href="https://elmundodelmueble.com/categoria/linea-oficina/">Preguntas frecuentes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+  </body>
+
+
+
+</html>
