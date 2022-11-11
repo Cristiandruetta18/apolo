@@ -59,6 +59,34 @@ function calcularTotalAPagar() {
         return;
     }
 
+    if (direccion.value === "") {
+        alert("Por favor, escribí tu direccion.");
+        direccion.classList.add("is-invalid");
+        direccion.focus();
+        return;
+    }
+
+    if (localidad.value === "") {
+        alert("Por favor, escribí tu localidad.");
+        localidad.classList.add("is-invalid");
+        localidad.focus();
+        return;
+    }
+
+    if (provincia.value === "") {
+        alert("Por favor, escribí tu provincia.");
+        provincia.classList.add("is-invalid");
+        provincia.focus();
+        return;
+    }
+
+    if (telefono.value === "") {
+        alert("Por favor, escribí tu telefono.");
+        telefono.classList.add("is-invalid");
+        telefono.focus();
+        return;
+    }
+
     // Para determinar si el correo electrónico es válido o no
     const emailValido = mail => {
         return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail);
@@ -70,6 +98,19 @@ function calcularTotalAPagar() {
         mail.focus();
         return;
     }
+
+    // //Para determinar si el correo electrónico es válido o no
+      
+    // const telefonoValido = telefono => {
+    //     return /[0-9]{3}-[0-9]{2}-[0-9]{3}.test(telefono);
+    // }
+    
+    // if (!telefonoValido(telefono.value)) {
+    //     alert("Por favor, escribí un telefono válido.");
+    //     telefono.classList.add("is-invalid");
+    //     telefono.focus();
+    //     return;
+    // }
 
     // // Verifico si está ingresado al menos un mueble, sino que aplique un estilo de error
     chequearCantidadMuebles([cantidadMueble1,cantidadMueble2, cantidadMueble3] );

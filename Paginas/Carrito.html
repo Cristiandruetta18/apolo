@@ -24,59 +24,60 @@
   <body>
     <header>
 
-        <div class="institucional">
-          <div class="row align-items-center">
-            <div class="col">
-              <a class="nav-link" href="./Paginas/historia.html">Historia</a>
-            </div>
-            <div class="col">
-              <a class="nav-link" href="#contacto">Contacto</a>
-            </div>
-            <div class="col">
-              <a class="nav-link" href="#ubicacion">Ubicacion</a>
-            </div>
+      <div class="institucional">
+        <div class="row align-items-center">
+          <div class="col">
+            <a class="nav-link" href="../Paginas/Historia.html" target="_blank">Historia</a>
+          </div>
+          <div class="col">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </div>
+          <div class="col">
+            <a class="nav-link" href="#ubicacion">Ubicacion</a>
           </div>
         </div>
+      </div>
 
-        <div class="buscador">
-          <div class="row align-items-center">
-            <div class="col-6">
-              <a class="navbar-brand" href="#">
-                <img src="../IMAGES/LogoApolo.png" alt="Logo Apolo Muebles" width="70px" height="70px" class="d-inline-block align-text-top">
-                  APOLO MUEBLES
-              </a>
-            </div>
-            <div class="col-6">
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-danger" type="submit">Buscador</button>
-              </form>
-            </div>
-          </div> 
-        </div>
+      <div class="buscador">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <a class="navbar-brand" href="./Index.html">
+              <img src="../IMAGES/Logo Apolo Negro.png" alt="Logo Apolo Muebles" width="70px" height="70px" class="d-inline-block align-text-top">
+                APOLO MUEBLES
+            </a>
+          </div>
+          <div class="col-12  col-md-6">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Buscador</button>
+              <a class="nav-link" href="./Paginas/Carrito.html" target="_blank"><img src="../IMAGES/carito.png" alt="Carrito" width="35px" height="35px" class="d-inline-block align-text-top"/></a>
+            </form>
+          </div>
+        </div> 
+      </div>
 
-        <div class="lineas">
-          <ul class="nav  nav-pills nav-fill">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Linea Cocina</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Linea Living</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Linea Dormitorio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Linea Baño</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Linea Comedor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Otros</a>
-            </li>
-          </ul>
-        </div>
+      <div class="lineas">
+        <ul class="nav  nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linea Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linea Living</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linea Dormitorio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linea Baño</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linea Comedor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Otros</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <section>
@@ -150,14 +151,30 @@
                             <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="mail" required>
                         </div>
                   </div>
-                  
+                  <div class="row gx-2">
+                    <div class="col-md mb-3">
+                        <input type="text" class="form-control" placeholder="Direccion" aria-label="Direccion" id="direccion" required>
+                    </div>
+                    <div class="col-md mb-3">
+                        <input type="text" class="form-control" placeholder="Localidad" aria-label="Localidad" id="localidad" required>
+                    </div>
+                  </div>
+                  <div class="row gx-2">
+                    <div class="col-md mb-3">
+                        <input type="text" class="form-control" placeholder="Provincia" aria-label="Provincia" id="provincia" required>
+                    </div>
+                    <div class="col-md mb-3">
+                        <input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" size="10" maxlength="10" placeholder="Telefono" aria-label="Telefono" id="telefono" required>
+                    </div>
+                  </div>
+
                   </div>
                   <div class="col-lg-9 d-flex">
                     <div class="col-md mb-3">
-                        <button type="reset" class="w-100 btn btn-lg btn-form" id="btnBorrar">Borrar</button>
+                        <button type="reset" class="w-50 btn btn-lg btn-form btn-outline-dark" id="btnBorrar">Borrar</button>
                     </div>
                     <div class="col-md mb-3">
-                        <button type="button" class="w-100 btn btn-lg btn-form" id="btnResumen">Resumen</button>
+                        <button type="button" class="w-50 btn btn-lg btn-form btn-outline-dark" id="btnResumen">Resumen</button>
                     </div>
                 </div>
                 </form>
